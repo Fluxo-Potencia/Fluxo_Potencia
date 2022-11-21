@@ -1,0 +1,1339 @@
+imagSVG {
+  width: 100%;
+  height: 600px;
+  background-image: url('/static/sistema_2barrasP.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 0px;
+  top: 20%
+}
+
+imagSVG3 {
+  width: 100%;
+  height: 600px;
+  background-image: url('/static/sistema_3barras.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 0px;
+  top: 20%
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 600px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1000px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -300px;   /* 50% */
+  }
+}
+
+input[type=submit] {
+  background-color: #4CAF50;font-size: 10px;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+  position: absolute;
+  left: 42%;
+  top: 80%
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+.submit4 {
+  background-color: #FF75AD;font-size: 10px;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+  position: absolute;
+  left: 52%;
+  top: 80%} /* Blue */
+
+
+
+.submit5 {
+  background-color: #74A9ED;font-size: 10px;
+  color: white;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+  position: absolute;
+  left: 96%;
+  top: 2%} /* Blue */
+
+
+input.numberR[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 42.2%;
+  top: 45%
+}
+input.numberR[type="number"]:focus {
+  background-color: lightblue;
+}
+textoR {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: red;
+  left: 36.9%;
+  top:45%
+}
+UtextoR {
+  width: 5%; font-size: 7px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 49.9%;
+  top: 45%
+}
+
+input.numberX[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 42.2%;
+  top: 51%
+}
+input.numberX[type="number"]:focus {
+  background-color: lightblue;
+}
+textoX {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: 36.9%;
+  top: 51%
+}
+UtextoX {
+  width: 5%; font-size: 7px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 49.9%;
+  top: 51%
+}
+
+input.numberB[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 42.2%;
+  top: 57%
+}
+input.numberB[type="number"]:focus {
+  background-color: lightblue;
+}
+textoB {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: 36.9%;
+  top: 57%
+}
+UtextoB {
+  width: 5%; font-size: 7px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 49.9%;
+  top: 57%
+}
+
+input.numberP2[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 80.8%;
+  top: 70%
+}
+input.numberP2[type="number"]:focus {
+  background-color: lightblue;
+}
+textoP2 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: 75.5%;
+  top: 70%
+}
+UtextoP2 {
+  width: 5%; font-size: 7px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 88.5%;
+  top: 70%
+}
+
+input.numberQ2[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 80.8%;
+  top: 76%
+}
+input.numberQ2[type="number"]:focus {
+  background-color: lightblue;
+}
+textoQ2 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: 75.5%;
+  top: 76%
+}
+UtextoQ2 {
+  width: 5%; font-size: 7px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 88.5%;
+  top: 76%
+}
+
+input {
+  z-index: 1;
+}
+input.numberV1[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 34.1%;
+  top: 7%
+}
+input.numberV1[type="number"]:focus {
+  background-color: lightblue;
+}
+
+textoV1 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: 28.8%;
+  top: 7%
+}
+UtextoV1 {
+  width: 5%; font-size: 7px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 41.8%;
+  top: 7%
+}
+
+input.numberT1[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 34.1%;
+  top: 13%
+}
+input.numberT1[type="number"]:focus {
+  background-color: lightblue;
+}
+textoT1 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: 28.8%;
+  top: 13%
+}
+UtextoT1 {
+  width: 5%; font-size: 7px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 40.9%;
+  top: 13%
+}
+
+
+textoV2 {
+  width: 20%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: left;
+  color: blue;
+  left: 81%;
+  top: 7%
+}
+textoT2 {
+  width: 20%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: left;
+  color: blue;
+  left: 81%;
+  top: 13%
+}
+textoP1 {
+  width: 20%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: left;
+  color: blue;
+  left: 10%;
+  top: 68%
+}
+
+textoQ1{
+  width: 20%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: left;
+  color: blue;
+  left: 10%;
+  top: 74%
+}
+
+
+h1{
+  font-size: 10px;
+  position: absolute;
+  color: black;
+  text-align: center;
+  left: 40%;
+  top: 0%
+}
+
+h2{
+  color: #7CFC00;
+}
+
+.other{
+  color: blue;
+}
+
+.logo2 {
+  display: block;
+  text-indent: -9999px;
+  width: 700px;
+  height: 500px;
+  background: url(sistema_2barras.svg);
+  background-size: 700px 500px;
+}
+
+.logo3 {
+  display: block;
+  text-indent: -9999px;
+  width: 1000px;
+  height: 420px;
+  background: url(sistema_3barras.svg);
+  background-size: 600px 420px;
+}
+
+.input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('https://miro.medium.com/max/700/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg');
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  padding: 500px 00px 0px 00px;
+}
+
+
+
+input.numberR12[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 47.2%;
+  top: 10%
+}
+input.numberR12[type="number"]:focus {
+  background-color: lightblue;
+}
+textoR12 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: red;
+  left: 41.9%;
+  top: 10%
+}
+UtextoR12 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 54.9%;
+  top: 10%
+}
+
+input.numberR13[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 20.2%;
+  top: 87%
+}
+input.numberR13[type="number"]:focus {
+  background-color: lightblue;
+}
+textoR13 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: red;
+  left: 14.9%;
+  top: 87%
+}
+UtextoR13 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 27.9%;
+  top: 87%
+}
+
+input.numberR23[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 74.2%;
+  top: 87%
+}
+input.numberR23[type="number"]:focus {
+  background-color: lightblue;
+}
+textoR23 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: red;
+  left: 68.9%;
+  top: 87%
+}
+UtextoR23 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 81.9%;
+  top: 87%
+}
+
+input.numberX12[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 47.2%;
+  top: 16%
+}
+input.numberX12[type="number"]:focus {
+  background-color: lightblue;
+}
+textoX12 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: 41.9%;
+  top: 16%
+}
+UtextoX12 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 54.9%;
+  top: 16%
+}
+
+input.numberX13[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 20.2%;
+  top: 93%
+}
+input.numberX13[type="number"]:focus {
+  background-color: lightblue;
+}
+textoX13 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: 14.9%;
+  top: 93%
+}
+UtextoX13 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 27.9%;
+  top: 93%
+}
+
+input.numberX23[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 74.2%;
+  top: 93%
+}
+input.numberX23[type="number"]:focus {
+  background-color: lightblue;
+}
+textoX23 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: 68.9%;
+  top: 93%
+}
+UtextoX23 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 81.9%;
+  top: 93%
+}
+
+input.numberB12[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 47.2%;
+  top: 22%
+}
+input.numberB12[type="number"]:focus {
+  background-color: lightblue;
+}
+textoB12 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: 41.9%;
+  top: 22%
+}
+UtextoB12 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 54.9%;
+  top: 22%
+}
+
+input.numberB13[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 20.2%;
+  top: 99%
+}
+input.numberB13[type="number"]:focus {
+  background-color: lightblue;
+}
+textoB13 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: 14.9%;
+  top: 99%
+}
+UtextoB13 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 27.9%;
+  top: 99%
+}
+
+input.numberB23[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 74.2%;
+  top: 99%
+}
+input.numberB23[type="number"]:focus {
+  background-color: lightblue;
+}
+textoB23 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: 68.9%;
+  top: 99%
+}
+UtextoB23 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 81.9%;
+  top: 99%
+}
+
+input.numberV3[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 32.8%;
+  top: 144.5%
+}
+input.numberV3[type="number"]:focus {
+  background-color: lightblue;
+}
+textoV3 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: 27.5%;
+  top: 144.5%
+}
+UtextoV3 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 43.5%;
+  top: 144.5%
+}
+
+input.numberP3[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 32.8%;
+  top: 150.5%
+}
+input.numberP3[type="number"]:focus {
+  background-color: lightblue;
+}
+textoP3 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: 27.5%;
+  top: 150.5%
+}
+UtextoP3 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 40.5%;
+  top: 150.5%
+}
+
+textoT3 {
+  width: 20%; font-size: 20px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: left;
+  color: blue;
+  left: 60.8%;
+  top: 142%
+}
+textoQ3 {
+  width: 20%; font-size: 20px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: left;
+  color: blue;
+  left: 60.8%;
+  top: 150%
+}
+
+
+input.numberV1_3[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 5.1%;
+  top: 18%
+}
+input.numberV1_3[type="number"]:focus {
+  background-color: lightblue;
+}
+
+textoV1_3 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: -0.2%;
+  top: 18%
+}
+UtextoV1_3 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 12.8%;
+  top: 18%
+}
+
+input.numberT1_3[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 5.1%;
+  top: 24%
+}
+input.numberT1_3[type="number"]:focus {
+  background-color: lightblue;
+}
+
+textoT1_3 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: -0.2%;
+  top: 24%
+}
+UtextoT1_3 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 11%;
+  top: 24%
+}
+
+input.numberP2_3[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 75.8%;
+  top: 5%
+}
+input.numberP2_3[type="number"]:focus {
+  background-color: lightblue;
+}
+textoP2_3 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: 70.5%;
+  top: 5%
+}
+UtextoP2_3 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 83.5%;
+  top: 5%
+}
+
+input.numberQ2_3[type="number"] {
+  width: 10%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  left: 75.8%;
+  top: 11%
+}
+input.numberQ2_3[type="number"]:focus {
+  background-color: lightblue;
+}
+
+textoQ2_3 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: right;
+  color: red;
+  left: 70.5%;
+  top: 11%
+}
+UtextoQ2_3 {
+  width: 5%; font-size: 10px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: right;
+  position: absolute;
+  color: gray;
+  left: 83.5%;
+  top: 11%
+}
+
+textoV2_3 {
+  width: 20%; font-size: 20px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: left;
+  color: blue;
+  left: 85%;
+  top: 34%
+}
+textoT2_3 {
+  width: 20%; font-size: 20px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: left;
+  color: blue;
+  left: 85%;
+  top: 26%
+}
+textoP1_3 {
+  width: 20%; font-size: 20px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: left;
+  color: blue;
+  left: 1%;
+  top: 64%
+}
+
+textoQ1_3{
+  width: 20%; font-size: 20px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: absolute;
+  text-align: left;
+  color: blue;
+  left: 1%;
+  top: 72%
+}

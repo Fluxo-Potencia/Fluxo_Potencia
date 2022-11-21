@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluxo de Potência</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='estilos.css') }}"/> -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='estilos.css') }}"/>
+    <link rel="stylesheet" type="text/css" media='screen and (max-device-width: 1000px) and (orientation: landscape)' href="{{ url_for('static', filename='estilos2.css') }}"/>
+    <link rel="stylesheet" type="text/css" media='screen and (max-device-width: 1000px) and (orientation: portrait)' href="{{ url_for('static', filename='estilos3.css') }}"/>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+<style>
+
+
+
+input[type=number] {
+  width: 10%; font-size: 30px;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  position: relative;
+  left: 10px;
+  top: 20px
+}
+
+input[type=number]:focus {
+  border: 3px solid #555;
+}
+
+input[type=Input2] {
+  width: 10%; font-size: 30px;
+  background-color: lightblue;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  background-image: url('https://miro.medium.com/max/700/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg');
+}
+input[type=Input2]:focus {
+  border: 3px solid #555;
+}
+</style>
+
+</head>
+
+<body>
+	<h1>Fluxo de Potência - Unesp Rosana</h1>
+	<!-- <img src='/static/sistema_2barrasP.svg' class="bg"> -->
+		<form method="post" action="{{ url_for('operation_result') }}" id="calculator_form">
+
+			<textoV1><label for="Input_V1">\(V_1\):</label></textoV1>
+			<textoT1><label for="Input_t1">\(\theta_1\):</label></textoT1>
+			<textoR><label for="Input_r">\(r\):</label></textoR>
+			<textoX><label for="Input_x">\(x\):</label></textoX>
+			<textoB><label for="Input_bsh">\(b^{sh}\):</label></textoB>
+			<textoP2><label for="Input_P2">\(P^d_2\):</label></textoP2>
+			<textoQ2><label for="Input_Q2">\(Q^d_2\):</label></textoQ2>
+			<UtextoR>p.u.</UtextoR>
+			<UtextoX>p.u.</UtextoX>
+			<UtextoB>p.u.</UtextoB>
+			<UtextoP2>p.u.</UtextoP2>
+			<UtextoQ2>p.u.</UtextoQ2>
+			<UtextoV1>p.u.</UtextoV1>
+			<UtextoT1>\(^\circ\)</UtextoT1>
+
+			<input type="number" class="numberV1" step="0.0001" name="Input_V1"  id="Input_V1"  value={{input_V1}}>
+			<input type="number" class="numberT1" step="0.0001" name="Input_t1"  id="Input_t1"  value={{input_t1}}>
+			<input type="number" class="numberR"  step="0.0001" name="Input_r"   id="Input_r"   value={{input_r}} >
+			<input type="number" class="numberX"  step="0.0001" name="Input_x"   id="Input_x"   value={{input_x}} >
+			<input type="number" class="numberB"  step="0.0001" name="Input_bsh" id="Input_bsh" value={{input_bsh}} >
+			<input type="number" class="numberP2" step="0.0001" name="Input_P2"  id="Input_P2"  value={{input_P2}} >
+			<input type="number" class="numberQ2" step="0.0001" name="Input_Q2"  id="Input_Q2"  value={{input_Q2}} >
+			<input type="submit" value="Calcular"/>
+		</form>
+	<imagSVG></imagSVG>
+	<submit2>
+	<form method="post" action="{{ url_for('inicial') }}" id="calculator_form2">
+        <!-- <input type="submit" value="Reset"/> -->
+		<button class="submit submit4">Reset</button>
+    </form>
+    <form method="post" action="{{ url_for('sist3') }}" id="calculator_form23">
+        <!-- <input type="submit" value="Sistema 3"/> -->
+		<button class="submit submit5">Ir a sistema de 3 barras</button>
+    </form>
+    </submit2>
+
+
+    {% if calculation_success == True %}
+        <br/>
+        <textoV2>\(V_2\) = {{result_V2}}</textoV2>
+		<textoT2>\(\theta_2\) = {{result_t2}}</textoT2>
+		<textoP1>\(P_1\) = {{result_P1}}</textoP1>
+		<textoQ1>\(Q_1\) = {{result_Q1}}</textoQ1>
+    {% endif %}
+    {% if calculation_success == False %}
+        <br/>
+        <p>{{error}}</p>
+    {% endif %}
+
+
+
+</body>
+</html>
